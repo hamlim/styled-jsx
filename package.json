@@ -26,8 +26,7 @@
     "prepublish": "gulp transpile",
     "test": "npm run lint && ava",
     "lint": "xo",
-    "format": "prettier --single-quote --no-semi --write *.js {src,test}/*.js",
-    "precommit": "xo --quiet && lint-staged"
+    "format": "prettier --single-quote --no-semi --write *.js {src,test}/*.js"
   },
   "ava": {
     "require": [
